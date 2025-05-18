@@ -6,7 +6,7 @@ package org.example;
 //Output: [3,2,1]
 public class ReverseLinkedList {
 
-
+    // O(N)
     public ListNode reverseList(ListNode head) {
         ListNode prev = null;
         ListNode current = head;
